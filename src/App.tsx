@@ -1,5 +1,6 @@
 import "./App.css";
-import Login from "./pages/login/Login";
+// import Login from "./pages/login/Login";
+import Tarefa from "./pages/tarefa/Tarefa";
 
 
 function App() {
@@ -12,9 +13,9 @@ function App() {
       
       {/* <Contador /> */}
 
-      {/* <Tarefa /> */}
+      <Tarefa />
 
-      <Login />
+      {/* <Login /> */}
     </>
   );
 }
