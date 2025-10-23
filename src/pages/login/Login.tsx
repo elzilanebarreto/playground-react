@@ -16,10 +16,9 @@ function Login() {
         ) : (
           <div>
             <h2>Componente Login</h2>
-            <button onClick={() => setIsLogged(true)}>Entrar</button>
           </div>
-        )
-      }
+        )}
+        <button onClick={() => setIsLogged(!isLogged)}>{isLogged ? "Sair" : "Entrar"}</button>
     </>
   )
 }

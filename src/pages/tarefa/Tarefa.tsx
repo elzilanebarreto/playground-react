@@ -6,6 +6,7 @@ function Tarefa() {
   const[completed, setCompleted] = useState(false);
   const[tarefa, setTarefa] = useState('');
 
+  // useEffect é usado quando uma coisa acontecer, outra coisa também vai acontecer
   useEffect(() => {
     if(completed) {
       setTarefa('Parabéns! Você concluiu a tarefa!');
